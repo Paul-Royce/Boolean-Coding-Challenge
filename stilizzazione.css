@@ -1,0 +1,78 @@
+body {
+  color: white;
+  background-image: url(img/background-scaled.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 70% 20%;
+  font-family: sans-serif;
+}
+
+.contenitore {
+  padding: 50px 100px;
+  width: 55%;
+  margin: 30px auto 0px auto;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+h1 {
+  color: rgb(27, 201, 57);
+  text-align: center;
+}
+
+nav {
+  width: 100%;
+  padding: 15px 5px;
+  margin: auto;
+  background-color: rgb(27, 201, 57);
+  text-align: center;
+  border-radius: 1px;
+}
+
+nav > .bottone {
+  color: black;
+  background-color: white;
+  padding: 4px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  margin-left: 3px;
+  transition: 0.8s;
+  cursor: pointer;
+}
+nav > .bottone:hover {
+  color: black;
+  background-color: rgb(220, 113, 51);
+}
+
+section h2 {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.bar {
+  height: 25px;
+  margin-top: 1px;
+  border-radius: 2px;
+}
+
+section > .bar-1 {
+  width: 30%;
+  background-color: orange;
+}
+
+section > .bar-2 {
+  width: 50%;
+  background-color: green;
+}
+
+section > .bar-3 {
+  width: 15%;
+  background-color: red;
+}
